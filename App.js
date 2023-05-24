@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
-import { Affirmations } from "../UniLove/affirmations";
+import { Affirmations } from "../Affirmation/affirmations";
 
 export default function App() {
   const [currentAffirmationIndex, setCurrentAffirmationIndex] = useState(0);
